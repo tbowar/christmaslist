@@ -1,6 +1,6 @@
 # christmaslist
 
-christmaslist reads a comm delimetd list of names in the following format for each line:
+christmaslist reads a comm delimited list of names in the following format for each line:
 <name>, <name to avoid matching with>, <second name to avoid matching with>
 
 There may be as many lines as needed for the group, minimum 3 lines.
