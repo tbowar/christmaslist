@@ -1,6 +1,6 @@
 import sys, re
 
-if len(sys.argv) < 1:
+if len(sys.argv) < 2:
     print ("No name file found\n")
     sys.exit()
 
@@ -17,7 +17,7 @@ regex = r'\w+\s*,\s*\w+\s*,\s*\w+\s*'
 
 for i in range(numlines):
     temp = lines[i]
-    match = (re.search(regex, temp)
+    match = (re.search(regex, temp))
 #    print (match)
 #    templine = (temp.split(','))
 #    else:

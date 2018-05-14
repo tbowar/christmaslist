@@ -7,12 +7,8 @@ givers = []
 norec = []
 rec = []
 
-if len(sys.argv) < 2:
-    print ("No name file found\n")
-    sys.exit()
-
-with open(sys.argv[1]) as f:
-    lines = f.read().splitlines()
+with open(christmaslist.txt) as file:
+    lines = file.read().splitlines()
     numlines = len(lines)
 
 # Search for names in lines
